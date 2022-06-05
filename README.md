@@ -1,5 +1,17 @@
 # efsane-framework
 
+# project start date
+* 5/6/2022 Sunday 03:00
+
+# features
+* html+ tags 
+* responsive
+* fully support firefox, chrome, edge
+* pwa application
+* fully customize
+* lego code design(slot based components)
+
+
 ## Project setup
 ```
 npm install
