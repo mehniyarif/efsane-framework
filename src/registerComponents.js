@@ -27,6 +27,7 @@ import Switch from "@/components/efsane-switch";
 import Table from "@/components/efsane-table";
 import Tabs from "@/components/efsane-tabs";
 import TextArea from "@/components/efsane-text-area";
+import Layout from "@/components/efsane-layout";
 export const registerComponents = {
   install(app) {
     app.component("efsane-accordion-local", Accordion);
@@ -58,5 +59,6 @@ export const registerComponents = {
     app.component("efsane-table-local", Table);
     app.component("efsane-tabs-local", Tabs);
     app.component("efsane-text-area-local", TextArea);
+    app.component("efsane-layout-local", Layout);
   },
 };

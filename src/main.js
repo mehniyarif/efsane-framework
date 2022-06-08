@@ -4,11 +4,14 @@ import "./registerServiceWorker";
 import router from "./router";
 import store from "./store";
 
+import "@/assets/css/reboot/bootstrap-reboot.min.css";
+
 import { registerComponents } from "./registerComponents";
 import { registerPublishOwnPackages } from "./registerPublishOwnPackages";
 
 import { filters } from "./filters";
 import { directives } from "./directives";
+
 createApp(App)
   .use(registerComponents)
   .use(registerPublishOwnPackages)

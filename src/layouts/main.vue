@@ -1,12 +1,17 @@
 <template>
-  <main>
+  <efsane-layout-local>
+    <template #top>
+      <efsane-navbar-local></efsane-navbar-local>
+    </template>
+
     <router-view />
-  </main>
+  </efsane-layout-local>
 </template>
 
 <script>
 export default {
   name: "main-layout",
+  components: {},
 };
 </script>
 
